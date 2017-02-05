@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+	position: relative;
+	width: 1440px;
+	height: 450px;
+	background-color: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.links{
+	position: fixed;
+	top: 0;
+display: hidden;
+}
+
+
+.next{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #fff;
+	transform: translateY(50%);
+	bottom: 50%;
+	left: 20px;
+	opacity: .25;
+}
+
+.prev{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #fff;
+	transform: translateY(50%);
+	bottom: 50%;
+	right: 20px;
+	opacity: .25;
+}
+
+.next:hover{	
+	opacity: 1;
+}
+
+.prev:hover{
+	opacity: 1;
+}
